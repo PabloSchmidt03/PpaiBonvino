@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BonvinoForm.Properties
+namespace Presentacion.Properties
 {
 
 

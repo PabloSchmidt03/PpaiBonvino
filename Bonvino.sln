@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BonvinoForm", "BonvinoForm\BonvinoForm.csproj", "{AF23D5AB-F774-4784-AED6-3EA16AAE9A3D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{4A8BC0A1-3A05-4560-992F-91AE0BE9266A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentacion", "..\..\..\..\..\..\Ppai Bonvino Dsi\Bonvino\CapaPresentacion\Presentacion.csproj", "{B92572F3-7C4C-4156-9624-9B04F808AF19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoDatos", "AccesoDatos\AccesoDatos.csproj", "{531E9AC5-C08C-44D0-9FF8-FBE64E652DF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AF23D5AB-F774-4784-AED6-3EA16AAE9A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF23D5AB-F774-4784-AED6-3EA16AAE9A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AF23D5AB-F774-4784-AED6-3EA16AAE9A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AF23D5AB-F774-4784-AED6-3EA16AAE9A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8BC0A1-3A05-4560-992F-91AE0BE9266A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8BC0A1-3A05-4560-992F-91AE0BE9266A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8BC0A1-3A05-4560-992F-91AE0BE9266A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8BC0A1-3A05-4560-992F-91AE0BE9266A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B92572F3-7C4C-4156-9624-9B04F808AF19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92572F3-7C4C-4156-9624-9B04F808AF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92572F3-7C4C-4156-9624-9B04F808AF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92572F3-7C4C-4156-9624-9B04F808AF19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531E9AC5-C08C-44D0-9FF8-FBE64E652DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531E9AC5-C08C-44D0-9FF8-FBE64E652DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531E9AC5-C08C-44D0-9FF8-FBE64E652DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531E9AC5-C08C-44D0-9FF8-FBE64E652DF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
