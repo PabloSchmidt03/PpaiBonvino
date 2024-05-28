@@ -15,6 +15,10 @@ namespace Dominio
         public DateTime fechaUltimaActualizacion { get; set; }
         public int periodoActualizacion { get; set; } //en dias
 
+        public List<Vino> listaVinos = new List<Vino>(); 
+
+
+
         public bool tieneActualizacionNovedadesVino(DateTime fechaActual)
         {
             int diferencia = (fechaActual - fechaUltimaActualizacion).Days;
