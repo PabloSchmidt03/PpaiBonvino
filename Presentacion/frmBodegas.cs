@@ -34,6 +34,7 @@ namespace Presentacion
                 columnaNombre.DataPropertyName = "nombre"; // Asignar el nombre de la propiedad que se mostrará en esta columna
                 columnaNombre.HeaderText = "Nombre"; // Encabezado de la columna
                 dgvBodegas.Columns.Add(columnaNombre);
+                columnaNombre.Width = 200;
 
             }
             else
@@ -41,6 +42,11 @@ namespace Presentacion
                 MessageBox.Show("No se encontraron bodegas con actualizaciones disponibles.", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void btnObtenerActu_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Obteniendo actualizaciones de vinos..");
         }
+    }
     }
 

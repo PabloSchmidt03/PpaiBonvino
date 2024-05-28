@@ -29,23 +29,41 @@
         private void InitializeComponent()
         {
             this.dgvBodegas = new System.Windows.Forms.DataGridView();
+            this.btnObtenerActu = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBodegas)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvBodegas
             // 
             this.dgvBodegas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvBodegas.Location = new System.Drawing.Point(12, 12);
+            this.dgvBodegas.Location = new System.Drawing.Point(21, 12);
             this.dgvBodegas.Name = "dgvBodegas";
-            this.dgvBodegas.Size = new System.Drawing.Size(164, 256);
+            this.dgvBodegas.Size = new System.Drawing.Size(252, 278);
             this.dgvBodegas.TabIndex = 5;
+            // 
+            // btnObtenerActu
+            // 
+            this.btnObtenerActu.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnObtenerActu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnObtenerActu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnObtenerActu.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnObtenerActu.Location = new System.Drawing.Point(21, 307);
+            this.btnObtenerActu.Name = "btnObtenerActu";
+            this.btnObtenerActu.Size = new System.Drawing.Size(252, 34);
+            this.btnObtenerActu.TabIndex = 6;
+            this.btnObtenerActu.Text = "Obtener actualizaciones";
+            this.btnObtenerActu.UseVisualStyleBackColor = false;
+            this.btnObtenerActu.Click += new System.EventHandler(this.btnObtenerActu_Click);
             // 
             // frmBodegas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(378, 368);
+            this.BackColor = System.Drawing.Color.DarkMagenta;
+            this.ClientSize = new System.Drawing.Size(411, 368);
+            this.Controls.Add(this.btnObtenerActu);
             this.Controls.Add(this.dgvBodegas);
+            this.MaximizeBox = false;
             this.Name = "frmBodegas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Seleccion Bodegas";
@@ -58,5 +76,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgvBodegas;
+        private System.Windows.Forms.Button btnObtenerActu;
     }
 }
