@@ -17,12 +17,5 @@ namespace Dominio
 
         public List<Vino> listaVinos = new List<Vino>(); 
 
-
-
-        public bool tieneActualizacionNovedadesVino(DateTime fechaActual)
-        {
-            int diferencia = (fechaActual - fechaUltimaActualizacion).Days;
-            return diferencia >= periodoActualizacion;
-        }
     }
 }
